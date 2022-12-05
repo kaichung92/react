@@ -1,6 +1,6 @@
-export default function Nav() {
+export default function Nav(props) {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className={`navbar navbar-expand-lg ${props.color}`}>
       <div className="container-fluid">
         <a className="navbar-brand" href="/home">
           Home

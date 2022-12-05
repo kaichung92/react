@@ -4,9 +4,10 @@ import Nav from "./Nav";
 import Body from "./Body";
 
 function App() {
+  let color = "bg-dark";
   return (
     <div className="App">
-      <Nav />
+      <Nav color={color} />
       <Body img={logo} />
     </div>
   );
